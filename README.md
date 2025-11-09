@@ -9,7 +9,9 @@ A pixel-perfect replica of [Axiom Trade's](https://axiom.trade/pulse) token disc
 
 ## 🌐 Live Demo
 
-🔗 **[View Live Deployment](https://axiom-trade-token-discovery.vercel.app)** *(Update after Vercel deployment)*
+🔗 **[View Live Deployment](https://axiomsuite-efnwewuc2-watchout401s-projects.vercel.app)**
+
+**Production URL:** `https://axiomsuite-efnwewuc2-watchout401s-projects.vercel.app`
 
 ---
 
