@@ -229,7 +229,7 @@ npm run lighthouse:desktop   # Desktop preset
 
 ## 🎬 Demo Video
 
-📹 **[YouTube Demo Video](https://youtube.com/...)** *(Add link after creating)*
+📹 **[YouTube Demo Video](https://youtu.be/e0tM71lOF8Q)
 
 ---
 
