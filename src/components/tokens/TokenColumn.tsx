@@ -24,7 +24,7 @@ const containerVariants = {
     transition: {
       delay: index * 0.08,
       duration: 0.35,
-      ease: "easeOut",
+      ease: [0.4, 0, 0.2, 1] as const,
     },
   }),
 };

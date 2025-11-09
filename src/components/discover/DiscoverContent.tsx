@@ -69,7 +69,7 @@ export function DiscoverContent() {
     const isValidSort = sortParam ? sortableKeys.includes(sortParam) : false;
     const isValidOrder = orderParam === "asc" || orderParam === "desc";
 
-    if (isValidSort && isValidOrder) {
+    if (isValidSort && isValidOrder && sortParam && orderParam) {
       if (sortConfig.key !== sortParam || sortConfig.order !== orderParam) {
         dispatch(setSortConfig({ key: sortParam, order: orderParam }));
       }

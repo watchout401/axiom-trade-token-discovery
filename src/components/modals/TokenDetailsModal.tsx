@@ -61,7 +61,7 @@ export function TokenDetailsModal() {
   };
 
   const socialLinks = useMemo(() => {
-    if (!token) return [] as Array<{ icon: JSX.Element; label: string; href: string }>;
+    if (!token) return [] as Array<{ icon: React.ReactElement; label: string; href: string }>;
 
     return ([
       token.socialLinks.website && {
@@ -79,7 +79,7 @@ export function TokenDetailsModal() {
         label: "Contract",
         href: token.socialLinks.contract,
       },
-    ].filter(Boolean) as Array<{ icon: JSX.Element; label: string; href: string }>);
+    ].filter(Boolean) as Array<{ icon: React.ReactElement; label: string; href: string }>);
   }, [token]);
 
   return (

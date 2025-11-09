@@ -31,7 +31,7 @@ const rowVariants = {
     transition: {
       delay: 0.05 + index * 0.06,
       duration: 0.4,
-      ease: "easeOut",
+      ease: [0.4, 0, 0.2, 1] as const,
     },
   }),
   exit: { opacity: 0, y: -4, transition: { duration: 0.2 } },

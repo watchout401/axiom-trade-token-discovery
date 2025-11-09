@@ -39,7 +39,7 @@ export function Providers({ children }: PropsWithChildren) {
             <QueryClientProvider client={queryClient}>
               {children}
               <Toaster position="top-right" richColors expand={false} duration={3800} />
-              <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
+              <ReactQueryDevtools initialIsOpen={false} />
             </QueryClientProvider>
           </ErrorBoundary>
         )}
